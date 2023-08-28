@@ -1,0 +1,85 @@
+#ig_logo{
+    font-family: "Lobster";
+    font-weight: 100;
+}
+body{
+    display: flex;
+    height: 100vh;
+    margin: 0;
+    background-color:black;
+    color: white;
+}
+
+#navigation_bar{
+    height: 100%;
+    flex: 0.2;
+    border-right: 1px solid gray;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+ul{
+    list-style: none;
+    padding: 0px;
+}
+li:hover{
+    background-color: rgba(225, 225, 225, 0.08);
+}
+
+
+
+#main_page{
+    height: 100%;
+    flex: 0.8;
+}
+#profile_pic{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+#more{
+    position: absolute;
+    bottom: 0px;
+}
+ .posts{
+    flex: 0.8;
+    padding: 70px;
+}
+.post{
+    background-color:black;
+    height: 100px;
+    padding: 100%;
+}
+.post_head{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+.left{
+    display: flex;
+    gap: 10px;
+}
+.icon_button{
+    background-color: transparent;
+    border: none;
+    border-radius: 50%;
+    height: 45px;
+    width: 45px;
+}
+.icon_button:hover{
+  background-color: orgb;  
+}
+.post_img img{
+    height: 450px;
+    width: 100%;
+}
+.post_reaction{
+    display: flex;
+    justify-content: space-between;
+}
+.post_reaction button{
+    background-color: transparent;
+    color: white;
+    border: none;
+    font-size: 20px;
+    
+}
